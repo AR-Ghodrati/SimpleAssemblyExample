@@ -5,6 +5,7 @@ using namespace std;
 
 extern "C" {
     void BASIC_TEST(int arg0 , int arg1);
+    int MUL7(int arg0);
 }
 
 int main() {
@@ -17,6 +18,7 @@ int main() {
 
 
     BASIC_TEST(20,5);
+    cout<<"Mul7(5) : "<<MUL7(5);
 
 
 
