@@ -46,8 +46,8 @@ section .text
 
 extern _printf
 
-global _BASIC_TEST
-_BASIC_TEST:
+global _BASIC
+_BASIC:
 
    push    ebp             ; create stack frame
    mov     ebp, esp

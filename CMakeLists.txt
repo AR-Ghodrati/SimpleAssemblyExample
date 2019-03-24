@@ -7,4 +7,6 @@ set(CMAKE_CXX_FLAGS -m32) # Set 32bit Flag
 add_executable(SimpleAssemblyExample
         main.cpp
         BASIC/Basic.obj
-        MUL/Mul.obj)
+        MUL/Mul.obj
+        REVERSE/Reverse.obj
+        )

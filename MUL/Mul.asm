@@ -9,7 +9,7 @@ _MUL7:
    mov     eax, 0          ; and return 0 if so
    jl      end
    
-   ; x = x<<3 - x ; -> *7
+   ; x = x << 3 - x ; -> *7
    mov eax , [esp + 8] ; get First Arguman
    mov ebx , eax
    
@@ -18,5 +18,5 @@ _MUL7:
    
 
   end:
-   pop     ebp
+   pop ebp
    ret
