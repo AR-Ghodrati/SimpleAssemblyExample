@@ -9,4 +9,5 @@ add_executable(SimpleAssemblyExample
         BASIC/Basic.obj
         MUL/Mul.obj
         REVERSE/Reverse.obj
+        PATTERN/Pattern.obj
         )

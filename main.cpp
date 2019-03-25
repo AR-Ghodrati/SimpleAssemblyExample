@@ -34,6 +34,21 @@ int main() {
     }
 
 
+    if(FIND_PATTERN_1011(11))
+        cout<<"\n11 Contains 1011";
+
+    //0b111110111011 = 4027
+    if(FIND_PATTERN_1011(4027))
+        cout<<"\n4027 Contains 1011";
+
+    //0b1000101011101001011 = 284491
+    if(FIND_PATTERN_1011(284491))
+        cout<<"\n284491 Contains 1011";
+
+
+
+
+
 
     return 0;
 }
