@@ -10,4 +10,7 @@ add_executable(SimpleAssemblyExample
         MUL/Mul.obj
         REVERSE/Reverse.obj
         PATTERN/Pattern.obj
+        SEARCH/LinearSearch.obj
+        COUNTER/Counter1bit.obj
+        COUNTER/DivisibilityCounter.obj
         )
