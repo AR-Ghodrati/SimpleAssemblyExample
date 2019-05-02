@@ -7,10 +7,14 @@ Some Simple Assembly Example With C++ Tester Application
 ```c
 extern "C" {
 
-    void BASIC(int arg0 , int arg1); // Print Some Basic Functions From Assembly
-    int MUL7(int arg0);  // return ard0 * 7 (Using Shift)
-    int FIND_PATTERN_1011(int arg0); // Return 1 If arg0 Contains 1011 in bits
-    void REVERSE(int* arg0 , int arg1); // Reverse An Int Array
+    void BASIC(int arg0 , int arg1);
+    int MUL7(int arg0);
+    int FIND_PATTERN_1011(int arg0);
+    void REVERSE(int* arg0 , int arg1);
+    
+    int Counter1bit(int Number , int RegSize);
+    int DivisibilityCounter(int* Array, int ArraySize, int Value);
+    int LinearSearch(int* Array, int ArraySize, int Value);
 
 }
 ```
