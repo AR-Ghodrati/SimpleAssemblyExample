@@ -13,6 +13,7 @@ extern "C" {
     int Counter1bit(int Number , int RegSize);
     int DivisibilityCounter(int* Array, int ArraySize, int Value);
     int LinearSearch(int* Array, int ArraySize, int Value);
+    void ReverseIntArray(int* Array, int ArraySize);
     
 
 }

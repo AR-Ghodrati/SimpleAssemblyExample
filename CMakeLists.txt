@@ -13,4 +13,5 @@ add_executable(SimpleAssemblyExample
         SEARCH/LinearSearch.obj
         COUNTER/Counter1bit.obj
         COUNTER/DivisibilityCounter.obj
+        REVERSE/ReverseIntArray.obj
         )
