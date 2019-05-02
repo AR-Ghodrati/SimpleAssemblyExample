@@ -1,6 +1,6 @@
 section .text
 global _LinearSearch
-CMAIN:
+_LinearSearch:
 
     enter 0d , 0d
     
