@@ -17,6 +17,9 @@ extern "C" {
     int LinearSearch(int* Array, int ArraySize, int Value);
     void ReverseIntArray(int* Array, int ArraySize);
     
+    int NormalFactorial(int arg0);
+    int RecursiveFactorial(int arg0);
+    
 }
 ```
 

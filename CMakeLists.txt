@@ -14,4 +14,6 @@ add_executable(SimpleAssemblyExample
         COUNTER/Counter1bit.obj
         COUNTER/DivisibilityCounter.obj
         REVERSE/ReverseIntArray.obj
+        FACT/FactRecursive.obj
+        FACT/FactNormal.obj
         )
